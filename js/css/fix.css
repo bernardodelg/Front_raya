@@ -1,0 +1,237 @@
+.form-fix-login{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.product-selected{
+  width: 55%;
+  border-bottom:solid 3px #a5cd39;
+  /* margin: 0 auto; */
+  /* margin-left: 30%; */
+}
+
+.link-active{
+  color:#a5cd39 !important;
+}
+
+.link-no-active{
+  color:black !important;
+}
+
+.showPrice{
+  display: block;
+}
+
+.hidePrice{
+  display: none;
+}
+
+.tether-element{
+  z-index: 2000 !important;
+}
+
+.listUnits{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.listUnits li {
+  float: left;
+  padding: 10px;
+  text-align: center;
+}
+
+.unitsData{
+  width: 400px;
+}
+
+.rc-time-picker{
+  display: none !important;
+}
+
+.calendarButton {
+  display: none !important;
+}
+
+.collapse .uk-form-large{
+  display: none;
+}
+
+.button-mobile-search .uk-dropdown:hover{
+  display: block;
+}
+
+.price-modal{
+  display: flex;
+}
+
+ .contentnatural ul li {
+    text-align: left;
+  }
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  .collapse .uk-form-large{
+    display: none;
+  }
+    
+}
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+  .collapse .uk-form-large{
+    display: none;
+  }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .form-fix-login{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .collapse .uk-form-large{
+      display: block;
+    }
+
+    .noso_mobile{display:block !important;}
+    .noso_desktop{display:none !important;}
+
+  .contentnatural ul li article {
+    display: flex;
+    vertical-align: top;
+    margin: 14px 0 0 10px;
+    
+  }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .form-fix-login{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .collapse .uk-form-large{
+      display: block;
+    }
+
+    .noso_mobile{display:block !important;}
+    .noso_desktop{display:none !important;}
+
+
+  .contentnatural ul li article {
+    display: flex;
+    vertical-align: top;
+    margin: 14px 0 0 10px;
+    
+  }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .login-form{
+        width: 90% !important;
+    }
+
+    .form-fix-login{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .collapse .uk-form-large{
+      display: block;
+    }
+
+  .contentnatural ul li article {
+    display: flex;
+    vertical-align: top;
+    margin: 14px 0 0 10px;
+    
+  }
+
+
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .login-form{
+        width: 90% !important;
+    }
+
+    .form-fix-login{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .collapse .uk-form-large{
+      display: block;
+    }
+
+    .price-modal{
+      /* display: block; */
+      text-align: center;
+      margin-top: -7px;
+    }
+    
+    .extrainput {
+      width: auto;
+    }
+
+    .noso_mobile{display:block !important;}
+    .noso_desktop{display:none !important;}
+
+  .contentnatural ul li article {
+    display: flex !important;
+    vertical-align: top;
+    margin: 14px 0 0 10px;
+  }
+    
+  }
